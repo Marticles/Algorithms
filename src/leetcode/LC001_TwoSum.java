@@ -16,10 +16,10 @@ import java.util.Map;
  * return [0, 1].
  *
  * 1. 暴力法：两层嵌套循环，第一层遍历所有元素，第二层遍历查找对应的target-x元素是否存在。
- * 时间复杂度O(n^2)，空间复杂度O(1)。
+ *    时间复杂度O(n^2)，空间复杂度O(1)。
  *
  * 2. HashMap：先将所有元素放入HashMap中，第二次遍历所有元素并在HashMap中查找target-x元素是否存在。
- * 时间复杂度O(n)，空间复杂度O(n)。
+ *    时间复杂度O(n)，空间复杂度O(n)。
  *
  * Tag: Array, Hash Table
  *
